@@ -58,6 +58,11 @@ Select Download ZIP
 
 Extract the folder
 
+## Instructions to run the project
+Step 1: Open the folder in VS Code
+Step 2: Run the main program
+you will see the main menu thereafter
+
 
 ## Instructions for Testing
 
@@ -88,6 +93,7 @@ Check that the transaction history reflects the transfer.
 Display all accounts and confirm that account numbers and balances are correct.
 
 View the transaction history and ensure all previous transactions are recorded accurately.
+
 
 
 
