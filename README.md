@@ -66,44 +66,32 @@ The system provides the following major features:
 - **Maintainability:** The program should be designed in a modular way with separate classes for account, customer, transaction, and reporting. 
 
 
-banking-system/ 
+Instructions for Testing
 
-──​‍​‌‍​‍main.py # The main module to execute the program and get inputs from the user 
+To ensure the system works correctly, perform the following tests:
 
-── account.py # Contains the definition of Account class for the account management 
+Account Creation
 
-── customer.py # Contains the definition of the Customer class for customer-related data 
+Create multiple accounts with unique account numbers.
 
-── transaction.py # Contains the definition of the Transaction class for money transfers 
+Check that each account stores the correct customer name and initial balance.
 
-── report.py # Contains the definition of Report class for generating reports 
+Deposits and Withdrawals
 
-── statement.md # Project statement including problem statement and scope 
+Deposit money into an account and verify the balance updates correctly.
 
-── README.md # Project summary and user ​‍​‌‍​‍‌​‍​‌‍​‍‌guide 
+Attempt withdrawals, including invalid amounts, and check that the system handles errors properly (e.g., insufficient balance, negative amounts).
 
+Transfers
 
+Transfer money from one account to another.
 
-How to Use / Testing Instructions
+Verify that balances of both accounts are updated correctly.
 
-Main Menu Options
+Check that the transaction history reflects the transfer.
 
-1. Create Account: Enter a unique account number and customer name.
+Reports
 
-2. Deposit Money: Enter account number and deposit amount. Check balance updates.
+Display all accounts and confirm that account numbers and balances are correct.
 
-3. Withdraw Money: Enter account number and withdrawal amount. Validate sufficient balance.
-
-4. Transfer Money: Enter source and destination account numbers, then transfer amount.
-
-5. Show All Accounts: Displays account numbers and current balances.
-
-6. Show Transaction History: Lists all money transfers between accounts.
-
-7. Exit: Exit the program.
-
-Testing
-
--Test deposits, withdrawals, and transfers for multiple accounts.
--Ensure transaction history updates after every transfer.
--Check balance updates are accurate after each operation.
+View the transaction history and ensure all previous transactions are recorded accurately.
