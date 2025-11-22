@@ -58,33 +58,6 @@ Select Download ZIP
 
 Extract the folder
 
-## Project Structure
-
-
-##​‍​‌‍​‍‌​‍​‌‍​‍‌ Functional Requirements 
-
-- Ability to open accounts and have customer information saved. 
-
-- Money should be put in and taken out with proper validations. 
-
-- Money should be moved from one account to another in a secure way. 
-
-- It should be possible to view all accounts with their balances. 
-
-- The bank should keep track of the transaction history. 
-
---- 
-
-## Non-Functional Requirements 
-
-- **Usability:** User-friendly console interface with menu-driven options. 
-
-- **Reliability:** Each transaction has to be validated and verified. 
-
-- **Performance:** Operations should be completed fast with very little processing delay. 
-
-- **Maintainability:** The program should be designed in a modular way with separate classes for account, customer, transaction, and reporting. 
-
 
 ## Instructions for Testing
 
@@ -115,6 +88,7 @@ Check that the transaction history reflects the transfer.
 Display all accounts and confirm that account numbers and balances are correct.
 
 View the transaction history and ensure all previous transactions are recorded accurately.
+
 
 
 
