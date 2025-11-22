@@ -66,7 +66,7 @@ The system provides the following major features:
 - **Maintainability:** The program should be designed in a modular way with separate classes for account, customer, transaction, and reporting. 
 
 
-Instructions for Testing
+## Instructions for Testing
 
 To ensure the system works correctly, perform the following tests:
 
@@ -95,3 +95,4 @@ Reports
 Display all accounts and confirm that account numbers and balances are correct.
 
 View the transaction history and ensure all previous transactions are recorded accurately.
+
