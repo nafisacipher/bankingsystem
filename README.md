@@ -37,6 +37,26 @@ The system provides the following major features:
 - **Modules/Packages:** Standard Python libraries only (no external dependencies)  
 
 ---
+## installion instruction
+Step 1 — Download the Project
+
+You can download the project from GitHub:
+
+Option 1 — Using VS Code:
+
+Open VS Code
+
+Go to Source Control → Clone Repository
+
+Enter your repo link
+
+Option 2 — Download ZIP:
+
+Click the green Code button
+
+Select Download ZIP
+
+Extract the folder
 
 ## Project Structure
 
@@ -95,5 +115,6 @@ Check that the transaction history reflects the transfer.
 Display all accounts and confirm that account numbers and balances are correct.
 
 View the transaction history and ensure all previous transactions are recorded accurately.
+
 
 
