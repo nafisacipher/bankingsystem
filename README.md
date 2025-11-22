@@ -70,19 +70,19 @@ The system provides the following major features:
 
 To ensure the system works correctly, perform the following tests:
 
-Account Creation
+**Account Creation**
 
 Create multiple accounts with unique account numbers.
 
 Check that each account stores the correct customer name and initial balance.
 
-Deposits and Withdrawals
+**Deposits and Withdrawals**
 
 Deposit money into an account and verify the balance updates correctly.
 
 Attempt withdrawals, including invalid amounts, and check that the system handles errors properly (e.g., insufficient balance, negative amounts).
 
-Transfers
+**Transfers**
 
 Transfer money from one account to another.
 
@@ -90,9 +90,10 @@ Verify that balances of both accounts are updated correctly.
 
 Check that the transaction history reflects the transfer.
 
-Reports
+**Reports**
 
 Display all accounts and confirm that account numbers and balances are correct.
 
 View the transaction history and ensure all previous transactions are recorded accurately.
+
 
